@@ -1,7 +1,7 @@
 
 import './App.css'
- 
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+
 import Navbar from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Skill from './components/Skill/Skill'
@@ -11,7 +11,9 @@ import Education from './components/Education/Education'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import BlurBlob from './BlurBlob'
+import LoadingScreen from './components/LoadingScreen.jsx/LoadingScreen';
 function App() {
+
 
 
   return (                    

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram} from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram,FaWhatsapp} from "react-icons/fa";
 
 
 const Footer = () => {
@@ -14,9 +14,17 @@ const Footer = () => {
   return (
    <footer className='text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw] '>
     <div className="container mx-auto text-center ">
-      <h2 className='text-xl font-semibold text-purple-500'>  
+    <h2 className='text-xl font-semibold text-purple-500 flex justify-center items-center gap-5'>  
         Roshan Poulose
-      </h2>
+        <a
+          href="https://wa.me/9188323501"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-green-400 hover:text-purple-500 transition-transform transform hover:scale-110 text-4xl"
+        >
+          <FaWhatsapp />  
+        </a> 
+    </h2>
       <h2>
         <nav className='flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4'>
           {[
