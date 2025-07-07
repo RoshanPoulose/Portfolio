@@ -109,7 +109,7 @@ export const experiences = [
     img: webverseLogo, // Replace with actual logo or image path for Vonnue
     role: "Fullstack Developer Intern",
     company: "Vonnue",
-    date: "2023 - 2024",
+    date: "2025",
     desc: "Worked as a Fullstack Developer Intern, where I contributed to building and maintaining scalable web applications using the MERN stack. Focused on both frontend and backend development, and collaborated with cross-functional teams to enhance application performance and user interface.",
     skills: [
       "HTML",
@@ -187,11 +187,11 @@ export const projects = [
     title: "DoorDash Clone",
     description:
       "A pixel-perfect and fully responsive DoorDash homepage replica built using pure HTML and CSS. The design closely mirrors the original with precise layout and styling.",
-    image: doordash,
+    image: doordash,  
     tags: ["HTML", "CSS", "Responsive Design"],
-    github: "https://github.com/RoshanPoulose/DoorDash",
-    webapp: "https://roshanpoulose.github.io/DoorDash/",
-  },
+    github: "https://github.com/RoshanPoulose/DoorDash",                      
+    webapp: "https://roshanpoulose.github.io/DoorDash/",                                                                                                         
+  },    
   {
     id: 1,
     title: "Airbnb Clone",
