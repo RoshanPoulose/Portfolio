@@ -1,4 +1,4 @@
-// Skills Section Logo's
+
 import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
 import sassLogo from "./assets/tech_logo/sass.png";
@@ -106,7 +106,7 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: webverseLogo, // Replace with actual logo or image path for Vonnue
+    img: webverseLogo, 
     role: "Fullstack Developer Intern",
     company: "Vonnue",
     date: "2025",
